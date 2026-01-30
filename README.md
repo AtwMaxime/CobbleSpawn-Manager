@@ -13,24 +13,24 @@ It helps to:
 
 ## Features
 
-### 🧬 Biome Extractor
+### Biome Extractor
 Scans all mods and datapacks to extract every biome key and biome group.  
 Creates a local `biome_database.json` to ensure other scripts use correct biome IDs.
 
-### 🚫 Legendary Blocker
+### Legendary Blocker
 Deep-scans all `.jar` files (mods) and datapacks to detect and disable legendary spawns, regardless of namespace or hidden location.
 
-### 🧹 Spawn Cleaner
+### Spawn Cleaner
 Merges spawn files, fixes invalid biome references, and performs restrictive cleanup to keep only the most accurate spawn rules.
 
-### 🗺️ Atlas Generator
+### Atlas Generator
 Parses all active files to generate a human-readable `ATLAS_POKEMON.txt`, listing exactly where to find every Pokémon:
 - Biomes  
 - Time  
 - Rarity  
 - Altitude  
 
-### 🤖 Discord Bot
+### Discord Bot
 A ready-to-use bot allowing players to query the Atlas directly from Discord:
 ```
 !find Pikachu
@@ -93,7 +93,7 @@ python 03_legendary_blocker.py
 **CRITICAL** — Generates the *Legendary Protection* pack.  
 This pack **must be loaded last** to ensure no legendary Pokémon spawn naturally.
 
-➡️ Move the generated folders (`01_...`, `02_...`, `03_...`) into:
+Move the generated folders (`01_...`, `02_...`, `03_...`) into:
 
 ```
 world/datapacks/
